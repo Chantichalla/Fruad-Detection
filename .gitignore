@@ -1,0 +1,83 @@
+# Resume and building scripts
+*.docx
+*.xml
+*.txt
+resume_build.py
+present.docx
+
+# Standard Python/ML ignores
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data — NEVER commit the raw dataset (it's 150MB)
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# Trained models — large binary files, don't commit
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and output
+logs/
+*.log
+output/
+results/
+
+# SHAP plots (generated at runtime)
+plots/
+*.png
+*.jpg
+*.svg
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Environment files (API keys, secrets)
+.env
+.env.local
+.env.*.local
+secrets.yaml
+config.yaml
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MLflow (if added later)
+mlruns/
+mlartifacts/
