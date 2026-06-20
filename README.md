@@ -181,6 +181,3 @@ seaborn
 **Q: What does SHAP tell you?**
 > SHAP assigns each feature a contribution value based on Shapley values from cooperative game theory. V14 and V4 showed the highest negative SHAP values for fraud — meaning large deviations in those PCA components strongly predicted fraud.
 
----
-
-*Built by Challa Harshith Reddy | github.com/HarshithReddyML*
