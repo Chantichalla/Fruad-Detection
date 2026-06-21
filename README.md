@@ -170,14 +170,4 @@ seaborn
 
 ---
 
-## 📌 Interview Q&A (Know These Cold)
-
-**Q: Why did you choose XGBoost?**
-> Gradient boosting sequentially corrects errors from prior trees. XGBoost adds L1/L2 regularization which prevents overfitting on the majority class and handles missing values natively.
-
-**Q: What is SMOTE and why did you apply it only on training data?**
-> SMOTE generates synthetic minority class samples by interpolating between existing fraud samples. Applied on test data, it leaks information that wouldn't exist in real inference — inflating all metrics artificially.
-
-**Q: What does SHAP tell you?**
-> SHAP assigns each feature a contribution value based on Shapley values from cooperative game theory. V14 and V4 showed the highest negative SHAP values for fraud — meaning large deviations in those PCA components strongly predicted fraud.
 
